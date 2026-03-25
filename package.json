@@ -48,6 +48,14 @@
     "build": "rm -rf lib/** && npm run build:js && npm run build:css && npm run generate-docs && npm run generate-notices",
     "build-storybook": "storybook build"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anguyen-yext2/chat-ui-react-test.git"
+  },
+  "bugs": {
+    "url": "https://github.com/anguyen-yext2/chat-ui-react-test/issues"
+  },
+  "homepage": "https://github.com/anguyen-yext2/chat-ui-react-test#readme",
   "devDependencies": {
     "@babel/core": "^7.21.8",
     "@babel/preset-env": "^7.21.5",
